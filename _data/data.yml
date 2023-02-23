@@ -7,92 +7,89 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Vishal Sharma
+    tagline: A trained Physicist and an Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
+    email: vishalsharma.ph@gmail.com
+    phone: False
+    timezone: Singapore Standard Time (UTC+08:00)
+    citizenship: False
+    website: False
+    linkedin: vishal-sharma-iit
+    xing: False
+    github: vishal-ph
+    telegram: False
+    gitlab: False
+    bitbucket: False
+    twitter: 'vshal_shrma'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+#     languages:
+#       title: Languages
+#       info:
+#         - idiom: English
+#           level: Biling
 
-        - idiom: French
-          level: Professional
+#         - idiom: French
+#           level: Professional
 
-        - idiom: Spanish
-          level: Professional
+#         - idiom: Spanish
+#           level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+#     interests:
+#       title: Interests
+#       info:
+#         - item: Climbing
+#           link:
 
-        - item: Snowboarding
-          link:
+#         - item: Snowboarding
+#           link:
 
-        - item: Cooking
-          link:
+#         - item: Cooking
+#           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have 3+ years of experience conducting research on NISQ quantum 
+      algorithms with experience with most major software libraries.
+      I have experience operating hardware at the pulse-level. I have spent 
+      2+ years developing software tools to facilitate research for my team
+      members. I have more than a year of experience leading a development
+      team designing an open-source quantum software library.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MSc in Physics
+        university: Ludwig Maximilian University of Munich
+        time: 2018 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+            I attended several graduate courses to prepare for a career
+            in Quantum Computing with focus in Quantum Physics.
+            I wrote my thesis on NISQ Computers with Pulse-level tools. 
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: BTech in Engineering Physics
+        university: Indian Institute of Technology Delhi
+        time: 2014-2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          I graduated with a 4-year Bachelor's in Engineering degree following
+          an extensive coursework spread over Physics, Mathematics, Computer Science,
+          Electrical Engineering. My Bachelor thesis was on properties
+          of Quark Gluon Plasma
             - Bullet point
             - Bullet point
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: OpenQAOA: Team Lead and Developer
+        time: 2022 - Present
+        company: Entropica Labs, Singapore
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -105,9 +102,9 @@ experiences:
           architecto beatae vitae dicta sunt explicabo.
             - Bullet point
             - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Lead Developer
+        time: 2021 - 2022
+        company: Entropica Labs, Singapore
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -116,9 +113,9 @@ experiences:
           pellentesque eu, pretium quis, sem.
             - Bullet point
             - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+      - role: Research Intern
+        time: 2020 - 2021
+        company: Entropica Labs, Singapore
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -128,7 +125,7 @@ experiences:
             - Bullet point
             - Bullet point
 projects:
-    title: Projects
+    title: OpenQAOA
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -199,13 +196,7 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
+      - name: Python
         level: 98%
 
       - name: HTML5 & CSS
